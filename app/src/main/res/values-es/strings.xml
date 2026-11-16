@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Generic -->
+    <string name="back">Atrás</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Guardar</string>
+    <string name="delete">Eliminar</string>
+    <string name="edit">Editar</string>
+    <string name="ok">Aceptar</string>
+    <string name="undo">Deshacer</string>
+    <string name="more">Más opciones</string>
+    <string name="rename">Renombrar</string>
+    <string name="restore">Restaurar</string>
+
+    <!-- Categories (seeded names; users can rename) -->
+    <string name="category_home">Casa</string>
+    <string name="category_car">Coche</string>
+    <string name="category_family">Familia</string>
+    <string name="category_pets">Mascotas</string>
+    <string name="category_me">Yo</string>
+
+    <!-- Elapsed labels -->
+    <string name="elapsed_never">Nunca</string>
+    <string name="elapsed_today">Hoy</string>
+    <plurals name="elapsed_hours_ago">
+        <item quantity="one">hace %d hora</item>
+        <item quantity="many">hace %d horas</item>
+        <item quantity="other">hace %d horas</item>
+    </plurals>
+    <string name="elapsed_yesterday">Ayer</string>
+    <plurals name="elapsed_days">
+        <item quantity="one">%d día</item>
+        <item quantity="many">%d días</item>
+        <item quantity="other">%d días</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="one">%d mes</item>
+        <item quantity="many">%d meses</item>
+        <item quantity="other">%d meses</item>
+    </plurals>
+    <plurals name="elapsed_years">
+        <item quantity="one">%d año</item>
+        <item quantity="many">%d años</item>
+        <item quantity="other">%d años</item>
+    </plurals>
+    <string name="elapsed_years_months">%1$s, %2$s</string>
+    <string name="last_done_on">Última vez: %1$s</string>
+    <string name="never_done">Aún no realizado</string>
+
+    <!-- Status -->
+    <string name="status_overdue">Vencido</string>
+    <string name="status_due_soon">Próximamente</string>
+    <string name="status_later">Más adelante</string>
+
+    <!-- Home -->
+    <string name="done">Hecho</string>
+    <string name="done_action_label">Registrar como hecho ahora</string>
+    <string name="done_long_label">Registrar con fecha y nota</string>
+    <string name="logged_snackbar">“%1$s” registrado</string>
+    <string name="add_event">Añadir evento</string>
+    <string name="search">Buscar</string>
+    <string name="search_hint">Buscar en nombres y notas</string>
+    <string name="close_search">Cerrar búsqueda</string>
+    <string name="clear">Borrar</string>
+    <string name="sort">Ordenar</string>
+    <string name="sort_longest_ago">Más antiguo primero</string>
+    <string name="sort_most_recent">Más reciente primero</string>
+    <string name="sort_name">Nombre</string>
+    <string name="filter_all">Todos</string>
+    <string name="filter_hours">Horas</string>
+    <string name="filter_days">Días</string>
+    <string name="form_add_category">Nueva categoría</string>
+    <string name="filter_weeks">Semanas</string>
+    <string name="filter_months">Meses</string>
+    <string name="filter_years">Años</string>
+    <string name="settings">Ajustes</string>
+    <string name="no_matches">Nada coincide con estos filtros.</string>
+
+    <!-- Empty state -->
+    <string name="empty_title">Todavía no hay nada</string>
+    <string name="empty_body">Añade lo que quieras recordar haber hecho por última vez. Toca una sugerencia para empezar:</string>
+    <string name="suggest_plants">Regar las plantas</string>
+    <string name="suggest_filter">Cambiar el filtro</string>
+    <string name="suggest_haircut">Corte de pelo</string>
+    <string name="suggest_dentist">Visita al dentista</string>
+    <string name="suggest_call">Llamar a un amigo</string>
+    <string name="empty_custom">Añade el tuyo</string>
+
+    <!-- Log sheet -->
+    <string name="log_title">Registrar “%1$s”</string>
+    <string name="log_edit_title">Editar registro</string>
+    <string name="log_yesterday">Ayer</string>
+    <string name="log_note">Nota (opcional)</string>
+    <string name="pick_time">Elegir hora</string>
+
+    <!-- Detail -->
+    <string name="detail_log">Registrar</string>
+    <string name="detail_log_now">Hecho ahora</string>
+    <string name="detail_next_due">Próxima vez: %1$s</string>
+    <string name="detail_overdue_by">Vencido hace %1$s</string>
+    <string name="detail_due_in">Vence en %1$s</string>
+    <string name="detail_due_today">Vence hoy</string>
+    <string name="stats_entries">Registros</string>
+    <string name="stats_average">Intervalo medio</string>
+    <string name="stats_longest">Intervalo más largo</string>
+    <string name="stats_none">—</string>
+    <string name="history">Historial</string>
+    <string name="history_empty">Aún no hay registros. Toca “Hecho ahora” para añadir el primero.</string>
+    <string name="history_gap">%1$s después del anterior</string>
+    <string name="entry_removed">Registro eliminado</string>
+    <string name="not_found">Este evento ya no existe.</string>
+    <string name="archived_label">Archivado</string>
+
+    <!-- Form -->
+    <string name="form_new_title">Nuevo evento</string>
+    <string name="form_edit_title">Editar evento</string>
+    <string name="form_name">Nombre</string>
+    <string name="form_name_required">Escribe un nombre</string>
+    <string name="form_icon">Icono</string>
+    <string name="form_color">Color</string>
+    <string name="form_category">Categoría</string>
+    <string name="form_no_category">Ninguna</string>
+    <string name="form_rhythm">Ritmo objetivo</string>
+    <string name="form_rhythm_switch">Recordarme repetirlo</string>
+    <string name="form_rhythm_every">Cada</string>
+    <string name="form_rhythm_invalid">Introduce un número mayor que cero</string>
+    <string name="unit_days">días</string>
+    <string name="unit_weeks">semanas</string>
+    <string name="unit_months">meses</string>
+    <string name="unit_years">años</string>
+    <string name="form_notes">Notas</string>
+    <string name="form_archive">Archivar evento</string>
+    <string name="form_delete">Eliminar evento</string>
+    <string name="delete_confirm_title">¿Eliminar “%1$s”?</string>
+    <string name="delete_confirm_body">Se eliminarán el evento y todo su historial. Esta acción no se puede deshacer.</string>
+    <string name="color_swatch">Color %1$d</string>
+
+    <!-- Icon names (content descriptions) -->
+    <string name="icon_home">Casa</string>
+    <string name="icon_star">Estrella</string>
+    <string name="icon_heart">Corazón</string>
+    <string name="icon_build">Herramientas</string>
+    <string name="icon_cart">Compras</string>
+    <string name="icon_phone">Teléfono</string>
+    <string name="icon_mail">Correo</string>
+    <string name="icon_place">Lugar</string>
+    <string name="icon_person">Persona</string>
+    <string name="icon_face">Cara</string>
+    <string name="icon_calendar">Calendario</string>
+    <string name="icon_bell">Campana</string>
+    <string name="icon_check">Marca de verificación</string>
+    <string name="icon_refresh">Actualizar</string>
+    <string name="icon_thumb">Pulgar arriba</string>
+    <string name="icon_info">Información</string>
+
+    <!-- Categories screen -->
+    <string name="categories_title">Categorías</string>
+    <string name="categories_add">Añadir categoría</string>
+    <string name="categories_name">Nombre de la categoría</string>
+    <string name="categories_move_up">Subir</string>
+    <string name="categories_move_down">Bajar</string>
+    <string name="categories_delete_title">¿Eliminar “%1$s”?</string>
+    <string name="categories_delete_body">Los eventos de esta categoría se conservan y quedan sin categoría.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_appearance">Apariencia</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
+    <string name="settings_language">Idioma</string>
+    <string name="language_system">Predeterminado del sistema</string>
+    <string name="settings_dynamic">Color dinámico</string>
+    <string name="settings_dynamic_desc">Usa los colores de tu fondo de pantalla (Android 12+)</string>
+    <string name="settings_organise">Organizar</string>
+    <string name="settings_archived">Eventos archivados</string>
+    <string name="settings_digest">Resumen diario</string>
+    <string name="settings_digest_desc">Una notificación por la mañana, solo cuando algo esté vencido</string>
+    <string name="settings_digest_time">Hora del resumen</string>
+    <string name="settings_digest_denied">Las notificaciones están bloqueadas. Permítelas en los ajustes del sistema para recibir el resumen.</string>
+    <string name="settings_privacy">Privacidad</string>
+    <string name="settings_lock">Bloqueo de la app</string>
+    <string name="settings_lock_desc">Pide huella, rostro o bloqueo de pantalla al abrir la app</string>
+    <string name="settings_lock_unavailable">Primero configura un bloqueo de pantalla en este dispositivo.</string>
+    <string name="settings_data">Datos</string>
+    <string name="settings_backup">Copia de seguridad en un archivo</string>
+    <string name="settings_restore">Restaurar desde un archivo</string>
+    <string name="settings_csv">Exportar historial como CSV</string>
+    <string name="settings_restore_confirm_title">¿Reemplazar todos los datos?</string>
+    <string name="settings_restore_confirm_body">Todo lo que hay ahora en la app se reemplazará por la copia de seguridad.</string>
+    <string name="settings_backup_done">Copia de seguridad guardada</string>
+    <string name="settings_csv_done">CSV guardado</string>
+    <string name="settings_restore_done">Copia de seguridad restaurada</string>
+    <string name="settings_restore_failed">No se pudo restaurar: %1$s</string>
+    <string name="backup_error_not_backup">No es un archivo de copia de seguridad válido</string>
+    <string name="backup_error_wrong_app">No es una copia de seguridad de esta app</string>
+    <string name="backup_error_version">Versión de copia de seguridad no compatible</string>
+    <string name="backup_error_orphans">La copia de seguridad tiene registros sin evento</string>
+    <string name="backup_error_category">La copia de seguridad tiene eventos en una categoría que no existe</string>
+    <string name="backup_error_duplicates">La copia de seguridad contiene ids duplicados</string>
+    <string name="backup_error_damaged">El archivo de copia de seguridad está dañado</string>
+    <string name="settings_file_failed">No se pudo leer o escribir el archivo</string>
+    <string name="settings_about">Acerca de</string>
+    <string name="settings_version">Versión %1$s</string>
+    <string name="settings_offline">Todo se queda en este dispositivo. Sin cuenta, sin red.</string>
+    <string name="about_title">Acerca de</string>
+    <string name="about_version">Versión %1$s (compilación %2$d)</string>
+    <string name="about_open">Abrir enlace</string>
+    <string name="about_copy">Copiar enlace</string>
+    <string name="about_no_browser">No hay ninguna app para abrir el enlace</string>
+    <string name="about_copied">Enlace copiado</string>
+
+    <!-- Archived screen -->
+    <string name="archived_title">Eventos archivados</string>
+    <string name="archived_empty">No hay nada archivado.</string>
+
+    <!-- Lock -->
+    <string name="lock_title">Desbloquear</string>
+    <string name="lock_subtitle">Confirma que eres tú</string>
+    <string name="lock_locked">Bloqueado</string>
+    <string name="lock_retry">Desbloquear</string>
+
+    <!-- Digest notification -->
+    <string name="digest_channel">Resumen diario</string>
+    <string name="digest_channel_desc">Un resumen matutino de los eventos vencidos</string>
+    <plurals name="digest_title">
+        <item quantity="one">%d evento vencido</item>
+        <item quantity="many">%d eventos vencidos</item>
+        <item quantity="other">%d eventos vencidos</item>
+    </plurals>
+
+    <!-- Widgets -->
+    <string name="widget_single_name">Un evento</string>
+    <string name="widget_single_desc">Muestra un evento con un botón Hecho</string>
+    <string name="widget_overdue_name">Eventos vencidos</string>
+    <string name="widget_overdue_desc">Lista lo que está vencido</string>
+    <string name="widget_pick_title">Elige un evento</string>
+    <string name="widget_none_overdue">Nada vencido</string>
+    <string name="widget_pick_prompt">Toca para elegir un evento</string>
+    <string name="widget_done">Hecho</string>
+</resources>

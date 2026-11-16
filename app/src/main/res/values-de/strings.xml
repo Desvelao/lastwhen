@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Generic -->
+    <string name="back">Zurück</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="save">Speichern</string>
+    <string name="delete">Löschen</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="ok">OK</string>
+    <string name="undo">Rückgängig</string>
+    <string name="more">Weitere Optionen</string>
+    <string name="rename">Umbenennen</string>
+    <string name="restore">Wiederherstellen</string>
+
+    <!-- Categories (seeded names; users can rename) -->
+    <string name="category_home">Zuhause</string>
+    <string name="category_car">Auto</string>
+    <string name="category_family">Familie</string>
+    <string name="category_pets">Haustiere</string>
+    <string name="category_me">Ich</string>
+
+    <!-- Elapsed labels -->
+    <string name="elapsed_never">Nie</string>
+    <string name="elapsed_today">Heute</string>
+    <plurals name="elapsed_hours_ago">
+        <item quantity="one">vor %d Stunde</item>
+        <item quantity="other">vor %d Stunden</item>
+    </plurals>
+    <string name="elapsed_yesterday">Gestern</string>
+    <plurals name="elapsed_days">
+        <item quantity="one">%d Tag</item>
+        <item quantity="other">%d Tage</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="one">%d Monat</item>
+        <item quantity="other">%d Monate</item>
+    </plurals>
+    <plurals name="elapsed_years">
+        <item quantity="one">%d Jahr</item>
+        <item quantity="other">%d Jahre</item>
+    </plurals>
+    <string name="elapsed_years_months">%1$s, %2$s</string>
+    <string name="last_done_on">Zuletzt: %1$s</string>
+    <string name="never_done">Noch nicht erledigt</string>
+
+    <!-- Status -->
+    <string name="status_overdue">Überfällig</string>
+    <string name="status_due_soon">Bald fällig</string>
+    <string name="status_later">Später</string>
+
+    <!-- Home -->
+    <string name="done">Erledigt</string>
+    <string name="done_action_label">Jetzt als erledigt eintragen</string>
+    <string name="done_long_label">Mit Datum und Notiz eintragen</string>
+    <string name="logged_snackbar">„%1$s“ eingetragen</string>
+    <string name="add_event">Ereignis hinzufügen</string>
+    <string name="search">Suchen</string>
+    <string name="search_hint">Namen und Notizen durchsuchen</string>
+    <string name="close_search">Suche schließen</string>
+    <string name="clear">Leeren</string>
+    <string name="sort">Sortieren</string>
+    <string name="sort_longest_ago">Am längsten her</string>
+    <string name="sort_most_recent">Zuletzt</string>
+    <string name="sort_name">Name</string>
+    <string name="filter_all">Alle</string>
+    <string name="filter_hours">Stunden</string>
+    <string name="filter_days">Tage</string>
+    <string name="form_add_category">Neue Kategorie</string>
+    <string name="filter_weeks">Wochen</string>
+    <string name="filter_months">Monate</string>
+    <string name="filter_years">Jahre</string>
+    <string name="settings">Einstellungen</string>
+    <string name="no_matches">Nichts passt zu diesen Filtern.</string>
+
+    <!-- Empty state -->
+    <string name="empty_title">Noch nichts erfasst</string>
+    <string name="empty_body">Füge hinzu, was du dir merken willst. Tippe auf einen Vorschlag, um zu starten:</string>
+    <string name="suggest_plants">Pflanzen gießen</string>
+    <string name="suggest_filter">Filter wechseln</string>
+    <string name="suggest_haircut">Haarschnitt</string>
+    <string name="suggest_dentist">Zahnarztbesuch</string>
+    <string name="suggest_call">Einen Freund anrufen</string>
+    <string name="empty_custom">Eigenes hinzufügen</string>
+
+    <!-- Log sheet -->
+    <string name="log_title">„%1$s“ eintragen</string>
+    <string name="log_edit_title">Eintrag bearbeiten</string>
+    <string name="log_yesterday">Gestern</string>
+    <string name="log_note">Notiz (optional)</string>
+    <string name="pick_time">Uhrzeit wählen</string>
+
+    <!-- Detail -->
+    <string name="detail_log">Eintragen</string>
+    <string name="detail_log_now">Jetzt erledigt</string>
+    <string name="detail_next_due">Nächstes Mal: %1$s</string>
+    <string name="detail_overdue_by">%1$s überfällig</string>
+    <string name="detail_due_in">Fällig in %1$s</string>
+    <string name="detail_due_today">Heute fällig</string>
+    <string name="stats_entries">Einträge</string>
+    <string name="stats_average">Ø Abstand</string>
+    <string name="stats_longest">Längster Abstand</string>
+    <string name="stats_none">—</string>
+    <string name="history">Verlauf</string>
+    <string name="history_empty">Noch keine Einträge. Tippe auf „Jetzt erledigt“, um den ersten zu erfassen.</string>
+    <string name="history_gap">%1$s nach dem vorherigen</string>
+    <string name="entry_removed">Eintrag entfernt</string>
+    <string name="not_found">Dieses Ereignis existiert nicht mehr.</string>
+    <string name="archived_label">Archiviert</string>
+
+    <!-- Form -->
+    <string name="form_new_title">Neues Ereignis</string>
+    <string name="form_edit_title">Ereignis bearbeiten</string>
+    <string name="form_name">Name</string>
+    <string name="form_name_required">Namen eingeben</string>
+    <string name="form_icon">Symbol</string>
+    <string name="form_color">Farbe</string>
+    <string name="form_category">Kategorie</string>
+    <string name="form_no_category">Keine</string>
+    <string name="form_rhythm">Ziel-Rhythmus</string>
+    <string name="form_rhythm_switch">Erinnere mich an die Wiederholung</string>
+    <string name="form_rhythm_every">Alle</string>
+    <string name="form_rhythm_invalid">Gib eine Zahl größer als null ein</string>
+    <string name="unit_days">Tage</string>
+    <string name="unit_weeks">Wochen</string>
+    <string name="unit_months">Monate</string>
+    <string name="unit_years">Jahre</string>
+    <string name="form_notes">Notizen</string>
+    <string name="form_archive">Ereignis archivieren</string>
+    <string name="form_delete">Ereignis löschen</string>
+    <string name="delete_confirm_title">„%1$s“ löschen?</string>
+    <string name="delete_confirm_body">Das Ereignis und sein gesamter Verlauf werden entfernt. Das kann nicht rückgängig gemacht werden.</string>
+    <string name="color_swatch">Farbe %1$d</string>
+
+    <!-- Icon names (content descriptions) -->
+    <string name="icon_home">Zuhause</string>
+    <string name="icon_star">Stern</string>
+    <string name="icon_heart">Herz</string>
+    <string name="icon_build">Werkzeug</string>
+    <string name="icon_cart">Einkaufen</string>
+    <string name="icon_phone">Telefon</string>
+    <string name="icon_mail">E-Mail</string>
+    <string name="icon_place">Ort</string>
+    <string name="icon_person">Person</string>
+    <string name="icon_face">Gesicht</string>
+    <string name="icon_calendar">Kalender</string>
+    <string name="icon_bell">Glocke</string>
+    <string name="icon_check">Häkchen</string>
+    <string name="icon_refresh">Aktualisieren</string>
+    <string name="icon_thumb">Daumen hoch</string>
+    <string name="icon_info">Info</string>
+
+    <!-- Categories screen -->
+    <string name="categories_title">Kategorien</string>
+    <string name="categories_add">Kategorie hinzufügen</string>
+    <string name="categories_name">Kategoriename</string>
+    <string name="categories_move_up">Nach oben</string>
+    <string name="categories_move_down">Nach unten</string>
+    <string name="categories_delete_title">„%1$s“ löschen?</string>
+    <string name="categories_delete_body">Ereignisse in dieser Kategorie bleiben erhalten und sind danach ohne Kategorie.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Einstellungen</string>
+    <string name="settings_appearance">Darstellung</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Hell</string>
+    <string name="theme_dark">Dunkel</string>
+    <string name="settings_language">Sprache</string>
+    <string name="language_system">Systemstandard</string>
+    <string name="settings_dynamic">Dynamische Farben</string>
+    <string name="settings_dynamic_desc">Farben aus dem Hintergrundbild verwenden (Android 12+)</string>
+    <string name="settings_organise">Organisieren</string>
+    <string name="settings_archived">Archivierte Ereignisse</string>
+    <string name="settings_digest">Tägliche Übersicht</string>
+    <string name="settings_digest_desc">Eine Benachrichtigung am Morgen, nur wenn etwas überfällig ist</string>
+    <string name="settings_digest_time">Uhrzeit der Übersicht</string>
+    <string name="settings_digest_denied">Benachrichtigungen sind blockiert. Erlaube sie in den Systemeinstellungen, um die Übersicht zu erhalten.</string>
+    <string name="settings_privacy">Datenschutz</string>
+    <string name="settings_lock">App-Sperre</string>
+    <string name="settings_lock_desc">Beim Öffnen der App Fingerabdruck, Gesicht oder Bildschirmsperre verlangen</string>
+    <string name="settings_lock_unavailable">Richte zuerst eine Bildschirmsperre auf diesem Gerät ein.</string>
+    <string name="settings_data">Daten</string>
+    <string name="settings_backup">In einer Datei sichern</string>
+    <string name="settings_restore">Aus einer Datei wiederherstellen</string>
+    <string name="settings_csv">Verlauf als CSV exportieren</string>
+    <string name="settings_restore_confirm_title">Alle Daten ersetzen?</string>
+    <string name="settings_restore_confirm_body">Alles, was gerade in der App ist, wird durch die Sicherung ersetzt.</string>
+    <string name="settings_backup_done">Sicherung gespeichert</string>
+    <string name="settings_csv_done">CSV gespeichert</string>
+    <string name="settings_restore_done">Sicherung wiederhergestellt</string>
+    <string name="settings_restore_failed">Wiederherstellung nicht möglich: %1$s</string>
+    <string name="backup_error_not_backup">Keine gültige Sicherungsdatei</string>
+    <string name="backup_error_wrong_app">Keine Sicherung dieser App</string>
+    <string name="backup_error_version">Nicht unterstützte Sicherungsversion</string>
+    <string name="backup_error_orphans">Die Sicherung enthält Einträge ohne Ereignis</string>
+    <string name="backup_error_category">Die Sicherung enthält Ereignisse in einer nicht vorhandenen Kategorie</string>
+    <string name="backup_error_duplicates">Die Sicherung enthält doppelte IDs</string>
+    <string name="backup_error_damaged">Die Sicherungsdatei ist beschädigt</string>
+    <string name="settings_file_failed">Die Datei konnte nicht gelesen oder geschrieben werden</string>
+    <string name="settings_about">Über</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="settings_offline">Alles bleibt auf diesem Gerät. Kein Konto, kein Netzwerk.</string>
+    <string name="about_title">Über</string>
+    <string name="about_version">Version %1$s (Build %2$d)</string>
+    <string name="about_open">Link öffnen</string>
+    <string name="about_copy">Link kopieren</string>
+    <string name="about_no_browser">Keine App zum Öffnen des Links gefunden</string>
+    <string name="about_copied">Link kopiert</string>
+
+    <!-- Archived screen -->
+    <string name="archived_title">Archivierte Ereignisse</string>
+    <string name="archived_empty">Nichts ist archiviert.</string>
+
+    <!-- Lock -->
+    <string name="lock_title">Entsperren</string>
+    <string name="lock_subtitle">Bestätige, dass du es bist</string>
+    <string name="lock_locked">Gesperrt</string>
+    <string name="lock_retry">Entsperren</string>
+
+    <!-- Digest notification -->
+    <string name="digest_channel">Tägliche Übersicht</string>
+    <string name="digest_channel_desc">Eine Morgenübersicht der überfälligen Ereignisse</string>
+    <plurals name="digest_title">
+        <item quantity="one">%d Ereignis ist überfällig</item>
+        <item quantity="other">%d Ereignisse sind überfällig</item>
+    </plurals>
+
+    <!-- Widgets -->
+    <string name="widget_single_name">Einzelnes Ereignis</string>
+    <string name="widget_single_desc">Zeigt ein Ereignis mit einer Erledigt-Schaltfläche</string>
+    <string name="widget_overdue_name">Überfällige Ereignisse</string>
+    <string name="widget_overdue_desc">Listet auf, was überfällig ist</string>
+    <string name="widget_pick_title">Ereignis wählen</string>
+    <string name="widget_none_overdue">Nichts überfällig</string>
+    <string name="widget_pick_prompt">Tippen, um ein Ereignis zu wählen</string>
+    <string name="widget_done">Erledigt</string>
+</resources>
