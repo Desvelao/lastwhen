@@ -7,10 +7,9 @@ workflow publishes the matching section as the GitHub Release notes.
 
 ## [Unreleased]
 
-### Changed
-- The app is now named LastWhen and has a new launcher icon (a history arrow around clock hands).
-- The About link now points to the GitHub repository.
-- The application id is now `io.github.desvelao.lastwhen`, so it installs as a new app: uninstall the old build and restore from a backup.
+## [0.1.0] - 2026-11-16
+
+First release.
 
 ### Added
 - Backups also save your sort, theme, dynamic colour and daily digest settings (not the app lock), and restore them.
@@ -36,11 +35,3 @@ workflow publishes the matching section as the GitHub Release notes.
 - Event names sort with the language's alphabet order (accented letters included) and ties keep a stable order.
 - The progress bar and the Overdue/Due soon status now agree across daylight-saving changes.
 - Colour swatches now have a full 48dp touch target, and the selected check mark picks black or white for contrast.
-
-
-## [0.1.0] - 2026-11-15
-
-First release.
-
-### Added
-- Project scaffolded from the `android-compose` template.
