@@ -8,7 +8,7 @@ workflow publishes the matching section as the GitHub Release notes.
 ## [Unreleased]
 
 ### Changed
-- The app is now named LastWhen.
+- The app is now named LastWhen and has a new launcher icon (a history arrow around clock hands).
 - The About link now points to the GitHub repository.
 - The application id is now `io.github.desvelao.lastwhen`, so it installs as a new app: uninstall the old build and restore from a backup.
 

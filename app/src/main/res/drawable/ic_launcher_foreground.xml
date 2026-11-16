@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Clock face with a check: "when did I last do this?" Kept inside the adaptive-icon safe zone. -->
+<!-- Rewind: a history arrow looping around clock hands ("when did I last do this?"). Inside the adaptive-icon safe zone. -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
     <path
-        android:fillColor="#FFFFFFFF"
-        android:pathData="M54,54m-26,0a26,26 0,1 1,52 0a26,26 0,1 1,-52 0" />
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFF8EB"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M54,30A24,24 0,1 0,78 54" />
     <path
-        android:fillColor="#FF2A62C4"
-        android:pathData="M52,38h4v17l11,6.5 -2,3.4 -13,-7.8z" />
+        android:fillColor="#FFFFF8EB"
+        android:pathData="M54,21L67,30L54,39Z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFF8EB"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M54,54V43M54,54L62,59" />
 </vector>
