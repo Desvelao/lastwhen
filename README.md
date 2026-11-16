@@ -16,6 +16,13 @@ names, and the Single event widget's Done button logs without unlocking. Do not 
 Status: all four plan phases are implemented. The phase gates that need real use (two weeks of daily use, hand-checked
 statuses, backup round trip on a fresh install, digest/widgets/lock on a physical phone) are still to be done.
 
+## Screenshots
+
+<table>
+<tr><td align="center"><img src="docs/screenshot/01-empty.png" width="200" alt="Empty state with suggestions"><br><sub>Empty state with suggestions</sub></td><td align="center"><img src="docs/screenshot/02-new-event.png" width="200" alt="New event: icon, colour, category"><br><sub>New event: icon, colour, category</sub></td><td align="center"><img src="docs/screenshot/03-target-rhythm.png" width="200" alt="Optional target rhythm"><br><sub>Optional target rhythm</sub></td><td align="center"><img src="docs/screenshot/04-home.png" width="200" alt="Home: Overdue, Due soon, Later"><br><sub>Home: Overdue, Due soon, Later</sub></td></tr>
+<tr><td align="center"><img src="docs/screenshot/05-log-sheet.png" width="200" alt="Log sheet: date, time, note"><br><sub>Log sheet: date, time, note</sub></td><td align="center"><img src="docs/screenshot/06-one-tap-done.png" width="200" alt="One-tap Done with Undo"><br><sub>One-tap Done with Undo</sub></td><td align="center"><img src="docs/screenshot/07-detail.png" width="200" alt="History, gaps and statistics"><br><sub>History, gaps and statistics</sub></td><td align="center"><img src="docs/screenshot/08-settings.png" width="200" alt="Settings"><br><sub>Settings</sub></td></tr>
+</table>
+
 ## Commands
 
 ```bash
