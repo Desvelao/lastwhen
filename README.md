@@ -39,7 +39,7 @@ tracked `app.properties`, then the default in `app/build.gradle.kts`.
 |---|---|
 | `APP_NAME` | `LastWhen` |
 | `APP_ID` | `io.github.desvelao.lastwhen` |
-| `APP_URL` | `https://github.com/desvelao/lastwhen` |
+| `APP_URL` | `https://github.com/Desvelao/lastwhen` |
 | `APP_VERSION_NAME` / `APP_VERSION_CODE` | not set (the release workflow sets them; defaults `0.1.0` / `1`) |
 
 ```bash

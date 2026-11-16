@@ -38,7 +38,7 @@ android {
         versionName = appParam("APP_VERSION_NAME", "0.1.0")
         resValue("string", "app_name", appParam("APP_NAME", "LastWhen"))
         // Project link (for an About screen). Blank hides it.
-        val appUrl = appParam("APP_URL", "https://github.com/desvelao/lastwhen").replace("\\", "\\\\").replace("\"", "\\\"")
+        val appUrl = appParam("APP_URL", "https://github.com/Desvelao/lastwhen").replace("\\", "\\\\").replace("\"", "\\\"")
         buildConfigField("String", "APP_URL", "\"$appUrl\"")
     }
 
